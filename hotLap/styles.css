@@ -1,0 +1,58 @@
+body {
+    width: 99%;
+    height: 99%;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    background-color: #000010;
+    color: #ffffff;
+    font-family: sans-serif;
+
+}
+
+span {
+    color: #ff000000;
+    font-weight: bold;
+}
+
+.hotlap {
+    display: flex;
+    justify-content: inherit;
+    align-items: center;
+}
+
+.browser {
+    justify-content: left;
+    flex-direction: row;
+    text-align: center;
+    background-color: #ffffff00;
+    border: 1px solid #ffca08;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    color: #ffffff
+}
+
+.current {
+    color: #ff0808;
+    text-decoration: none;
+}
+
+.next {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff0808;
+}
+
+.top5 {
+    text-align: left;
+}
+
+form {
+    text-align: left;
+}

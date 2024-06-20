@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Preferencias</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    <div class="hotlap"><img src="./image/icon.png" width="100" />
+        <span>////</span>
+        <h1><strong>Hot Lap</strong></h1>
+    </div>
+    <div class="browser">
+
+        <a href="index.html" class="next">O que é F1</a>
+        /
+        <a href="wordChampions.html" class="next">Os maiores campeões da F1 </a>
+        /
+        <a href="userPreferences.html" class="current">O que você prefere?</a>
+    </div>
+    <div>
+        <h2>O que você prefere?</h2>
+        <form action="/action_page.php">
+            <label for="teams">Qual sua equipe preferida?</label>
+            <select id="teams" name="teams">
+                <option value="aston">Aston Martin Aramco Formula One Team</option>
+                <option value="alpine">BWT Alpine F1 Team</option>
+                <option value="mclaren">McLaren F1 Team</option>
+                <option value="mercedes">Mercedes-AMG Petronas Formula One Team</option>
+                <option value="haas">MoneyGram Haas F1 Team</option>
+                <option value="redbull">Oracle Red Bull Racing</option>
+                <option value="ferrari">Scuderia Ferrari</option>
+                <option value="kicksauber">Stake F1 Team Kick Sauber</option>
+                <option value="visa">Visa Cash App RB Formula One Team</option>
+                <option value="Williams">Williams Racing</option>
+            </select>
+            <br />
+            <br />
+            <label for="nota">Qual sua nota para a equipe
+                <input type="range" id="nota" min="0" max="10" />
+            </label>
+            <br /><br />
+            <label for="motive">Porque você gosta desta equipe?</label>
+            <br />
+            <input type="checkbox"> Por causa da historia
+            <br />
+            <input type="checkbox"> Por conta dos pilotos
+            <br />
+            <input type="checkbox"> por que eu gosto de sofrer
+            <br />
+            <input type="checkbox"> Porque ela ganha muitas corridas
+            <br />
+            <input type="checkbox"> Por outro motivo<input type="text">
+            <br />
+            <br />
+            <input type="submit">
+        </form>
+</body>
+
+</html>
