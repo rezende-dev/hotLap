@@ -1,0 +1,78 @@
+:root {
+    --red: #ff0808;
+    --blue: #002070;
+    --yellow: #ffca08;
+    --darkRed: #7d0808;
+    --darkBlue: #000010;
+    --white: #ffffff;
+    --black: #000000;
+
+}
+
+body {
+    width: 99%;
+    height: 99%;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--darkBlue);
+    color: var(--white);
+    font-family: sans-serif;
+    font-size: 112%;
+}
+
+main {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+span {
+    color: #ff000000;
+    font-weight: bold;
+}
+
+.hotlap {
+    display: flex;
+    justify-content: inherit;
+    align-items: center;
+}
+
+.browser {
+    justify-content: left;
+    flex-direction: row;
+    text-align: center;
+    background-color: #ffffff00;
+    border: 1px solid var(--yellow);
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    color: var(--white)
+}
+
+.current {
+    color: var(--red);
+    text-decoration: none;
+}
+
+.next {
+    color: var(--white);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--red);
+}
+
+.top5 {
+    text-align: left;
+}
+
+form {
+    text-align: left;
+}
+
+text {
+    text-align: justify;
+}
