@@ -1,12 +1,14 @@
+*{
+    text-decoration: none;
+}
 :root {
-    --red: #ff0808;
-    --blue: #002070;
-    --yellow: #ffca08;
-    --darkRed: #7d0808;
-    --darkBlue: #000010;
-    --white: #ffffff;
-    --black: #000000;
-
+    --color1: #ffffff;
+    --color2: #000000;
+    --color3: #ff0808;
+    --color4: #002070;
+    --color5: #ffca08;
+    --color6: #7d0808;
+    --color7: #000010;
 }
 
 body {
@@ -17,8 +19,8 @@ body {
     position: relative;
     flex-direction: column;
     text-align: center;
-    background-color: var(--darkBlue);
-    color: var(--white);
+    background-color: var(--color2);
+    color: var(--color1);
     font-family: sans-serif;
     font-size: 112%;
 }
@@ -26,6 +28,7 @@ body {
 main {
     margin-right: 5%;
     margin-left: 5%;
+    background-color: var(--color7);
 }
 
 span {
@@ -40,29 +43,30 @@ span {
 }
 
 .browser {
-    justify-content: left;
-    flex-direction: row;
+    justify-content:center;
+    display: flex;
     text-align: center;
     background-color: #ffffff00;
-    border: 1px solid var(--yellow);
+    border: 1px solid var(--color5);
     text-align: center;
     font-weight: bold;
     font-size: large;
-    color: var(--white)
+    color: var(--white);
+    list-style: none;
 }
-
+.buton{
+    padding: 0px 40px 0px 40px;
+}
 .current {
-    color: var(--red);
-    text-decoration: none;
+    color: var(--color3);
 }
 
 .next {
-    color: var(--white);
-    text-decoration: none;
+    color: var(--color1);
 }
 
 a:hover {
-    color: var(--red);
+    color: var(--color6);
 }
 
 .top5 {
@@ -75,4 +79,9 @@ form {
 
 text {
     text-align: justify;
+}
+.tabela{
+    font-size: 100%;
+    color: var(--white);
+    margin: 50px;
 }
